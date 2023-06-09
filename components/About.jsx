@@ -25,8 +25,7 @@ const About = () => {
             but also provide a seamless user experience, ensuring a positive
             engagement for all users, whether they are customers seeking
             information or researchers contributing to your organization’s
-            mission. I will work hard to make sure I learn your current
-            Technologies.
+            mission.
           </p>
           <Link href="https://github.com/Matthew82-def" target="_blank">
             <p className="py-2 text-red-600 underline cursor-pointer">
