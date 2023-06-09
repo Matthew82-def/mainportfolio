@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import officeImg from "../public/assets/office.png";
 
 const About = () => {
   return (
@@ -34,10 +36,7 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-blue-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img
-            className="rounded-xl"
-            src="https://professional-portfolio-pink.vercel.app/office.jpg"
-          ></img>
+          <Image src={officeImg} className="rounded-xl" alt="/" />
         </div>
       </div>
     </div>
