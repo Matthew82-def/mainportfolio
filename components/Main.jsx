@@ -12,11 +12,11 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest text-cyan-600">
             Together we can build a creative world!
           </p>
-          <h1 className="py-4 text-grey-700">
+          <h1 className="py-2 text-grey-700">
             Hello, I'm <span className="text-[#0D6BBE]">Matt</span>
           </h1>
           <h1 className="py-2 text-grey-700">A FrontEnd Web Developer</h1>
-          <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
+          <p className="py-2 text-gray-600 sm:max-w-[70%] m-auto">
             As a web developer with over two years of hands-on experience in
             HTML, JavaScript, React, and Express.JS, I am always willing to
             learn new tricks to design, develop, and maintain websites tailored
