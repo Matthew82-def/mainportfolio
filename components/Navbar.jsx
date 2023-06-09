@@ -49,12 +49,12 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-18 shadow-l z-[100]"
-          : "fixed w-full h-18 z-[100]"
+          ? "fixed w-full h-14 shadow-xl z-[95]"
+          : "fixed w-full h-14 z-[95]"
       }
     >
       <div className="flex justify-between items-center w-auto h-auto px-2 1xl:px-14">
-        <Image src={mattLogoImg} width="75" height="75" alt="/" />
+        <Image src={mattLogoImg} width="55" height="55" alt="/" />
 
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
