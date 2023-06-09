@@ -6,7 +6,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import mattLogoBlackImg from "../public/assets/mattLogoBlack.png";
+import mattLogoImg from "../public/assets/mattLogoBlack.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -55,7 +55,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/mattLogoBlack.png"
+          src=<Image src={mattLogoImg} className="rounded-xl" alt="/" />
           width="82"
           height="95"
           alt="/"
