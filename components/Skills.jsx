@@ -1,5 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import htmlImg from "../public/assets/html.png";
+import githubImg from "../public/assets/github1.png";
+import javascriptImg from "../public/assets/javascript.png";
+import mongoImg from "../public/assets/mongo.png";
+import nextjsImg from "../public/assets/nextjs.png";
+import cssImg from "../public/assets/css.png";
+import nodeImg from "../public/assets/node.png";
+import reactImg from "../public/assets/react.png";
+import tailwindImg from "../public/assets/tailwind.png";
+import mysqlImg from "../public/assets/mysql1.png";
+import jqueryImg from "../public/assets/jquery.png";
+import vscodeImg from "../public/assets/vscode1.jpg";
 
 const Skills = () => {
   return (
@@ -13,12 +25,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/html.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={htmlImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center ">
                 <h3>HTML</h3>
@@ -28,12 +35,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/github1.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={githubImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>GitHub</h3>
@@ -43,12 +45,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/javascript.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={javascriptImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>JavaScript</h3>
@@ -58,12 +55,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/mongo.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={mongoImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Mongo</h3>
@@ -73,12 +65,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/nextjs.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={nextjsImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Next.JS</h3>
@@ -88,12 +75,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/css.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={cssImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>CSS</h3>
@@ -103,12 +85,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/node.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={nodeImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Node</h3>
@@ -118,12 +95,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/react.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={reactImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>React</h3>
@@ -133,12 +105,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/tailwind.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={tailwindImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tailwind</h3>
@@ -148,12 +115,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/mysql1.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={mysqlImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>MySQL</h3>
@@ -163,12 +125,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl  hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/jquery.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={jqueryImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>jQuery</h3>
@@ -178,12 +135,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300 ">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/vscode1.jpg"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={vscodeImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Visual Studio Code</h3>
