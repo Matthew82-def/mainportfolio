@@ -23,13 +23,9 @@ const Main = () => {
             for both clients and researchers. My passion is in troubleshooting,
             debugging, and analyzing website issues, and I am known for my
             ability to provide innovative ideas and best practices to enhance
-            website security. Having a keen understanding of website design
-            principles and user experience, I have been instrumental in ensuring
-            optimal website compatibility across different platforms and
-            browsers. I am now seeking to leverage these skills in a challenging
-            role to help your organization achieve its digital objectives.
+            website security.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-2">
             <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaLinkedinIn />
             </div>
