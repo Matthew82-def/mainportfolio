@@ -49,11 +49,11 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-18 shadow-l z-[100]"
+          : "fixed w-full h-18 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-auto h-auto px-2 1xl:px-14">
         <Image src={mattLogoImg} width="75" height="75" alt="/" />
 
         <div>
