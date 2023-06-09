@@ -27,7 +27,7 @@ const Main = () => {
             principles and user experience, I have been instrumental in ensuring
             optimal website compatibility across different platforms and
             browsers. I am now seeking to leverage these skills in a challenging
-            role to help your organization achieve its digital objectives
+            role to help your organization achieve its digital objectives.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
