@@ -114,8 +114,8 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="text-xl tracking-widest uppercase text-[#bb4949]">
-              <p className="text-xl tracking-widest uppercase text-[#9c4545]">
+            <div className="border-b border-gray-300 my-4">
+              <p className="w-[85%] md:w-[90%] py-4">
                 Together we can build a creative world!
               </p>
             </div>
