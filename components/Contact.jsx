@@ -130,7 +130,7 @@ const Contact = () => {
                 <div>{formSuccessMessage}</div>
               ) : (
                 <form
-                  action="https://api.avernix.com/api/mail/form?mailToken=t7L4BvkB7"
+                  action="https://api.avernix.com/api/mail/form?mailToken=tyWZ7j3bMitZblWWyllQ"
                   method="post"
                   onSubmit={submitForm}
                 >
