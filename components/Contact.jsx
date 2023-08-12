@@ -88,33 +88,33 @@ const Contact = () => {
               <p className="uppercase pt-8">Please contact me</p>
               <div className="flex items-center justify-between py-4">
                 <div>
-                  <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      href="https://www.linkedin.com/in/matthew-herrera-806bb696/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                  <a
+                    href="https://www.linkedin.com/in/matthew-herrera-806bb696/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
-                    </a>
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      href="https://github.com/Matthew82-def/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/Matthew82-def/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
-                    </a>
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a
-                      href="mailto:matt.rg.herrera@gmail.com"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    </div>
+                  </a>
+                  <a
+                    href="mailto:matt.rg.herrera@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineMail />
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                   <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>
@@ -127,20 +127,26 @@ const Contact = () => {
           <div className="col-span-3 w-full h-full shadow-xl shadow-blue-400 rounded-xl lg:p-4">
             <div className="p-4">
               {formSuccess ? (
-                <div>{formSuccessMessage}</div>
+                // <div></div>
+                <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300">
+                  <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                    <div className="flex flex-col items-center justify-center ">
+                      <h3>{formSuccessMessage}</h3>
+                    </div>
+                  </div>
+                </div>
               ) : (
                 <form
-                  action="https://api.avernix.com/api/mail/form?mailToken=tyWZ7j3bMitZblWWyllQ"
-                  method="post"
-                  onSubmit={submitForm}
-                >
-                  <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                    <div className="flex flex-col">
-                      <label className="uppercase text-sm py-2" for="name">
+                  action='https://api.avernix.com/api/mail/form?mailToken=tyWZ7j3bMitZblWWyllQ'
+                  method='post'
+                  onSubmit={submitForm}>
+                  <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+                    <div className='flex flex-col'>
+                      <label className='uppercase text-sm py-2' for='name'>
                         Name
                       </label>
                       <input
-                        className="border-2 rounded-lg p-3 flex border-blue-300"
+                        className='border-2 rounded-lg p-3 flex border-blue-300'
                         onChange={handleInput}
                         value={formData.name}
                         name="name"
