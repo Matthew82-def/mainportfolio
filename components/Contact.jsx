@@ -85,8 +85,10 @@ const Contact = () => {
                 <p>FrontEnd Developer</p>
                 <p className="py-4">I'm here for freelance or full-time.</p>
               </div>
-              <p className="uppercase pt-8">Please contact me</p>
-              <div className="flex items-center justify-between py-4">
+              <p className="uppercase pt-8">
+                Contact me and check out my resume:
+              </p>
+              <div className="flex flex-nowrap justify-center py-4">
                 <div>
                   <a
                     href="https://www.linkedin.com/in/matthew-herrera-806bb696/"

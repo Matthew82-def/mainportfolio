@@ -25,7 +25,7 @@ const Main = () => {
             ability to provide innovative ideas and best practices to enhance
             website security.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-1">
+          <div className="flex items-center justify-between max-w-[350px] m-auto py-1">
             <a
               href="https://www.linkedin.com/in/matthew-herrera-806bb696/"
               target="_blank"
@@ -63,6 +63,7 @@ const Main = () => {
               </div>
             </a>
           </div>
+          <div></div>
         </div>
       </div>
     </div>
