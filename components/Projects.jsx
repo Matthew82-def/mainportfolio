@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import chatapp from "../public/assets/projects/chatapp.png";
 import drumkit from "../public/assets/projects/drumkit.png";
+import saraLogo from "../public/assets/projects/saraLogo.png";
 import webpage from "../public/assets/projects/webpage.png";
 import tictactoe from "../public/assets/projects/tictactoe.png";
 // import Link from "next/link";
@@ -17,10 +17,10 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Chat App"
-            backgroundImg={chatapp}
-            projectUrl="/chat"
-            tech="React JS"
+            title="NonproAdco"
+            backgroundImg={saraLogo}
+            projectUrl="/nonpro"
+            tech="NEXT.JS, TAILWIND"
           />
           <ProjectItem
             title="Drum Kit"

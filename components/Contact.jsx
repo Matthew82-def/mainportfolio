@@ -115,9 +115,15 @@ const Contact = () => {
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <a
+                    href="https://resume.io/r/Fnz818CHy"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -137,16 +143,17 @@ const Contact = () => {
                 </div>
               ) : (
                 <form
-                  action='https://api.avernix.com/api/mail/form?mailToken=tyWZ7j3bMitZblWWyllQ'
-                  method='post'
-                  onSubmit={submitForm}>
-                  <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                    <div className='flex flex-col'>
-                      <label className='uppercase text-sm py-2' for='name'>
+                  action="https://api.avernix.com/api/mail/form?mailToken=tyWZ7j3bMitZblWWyllQ"
+                  method="post"
+                  onSubmit={submitForm}
+                >
+                  <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+                    <div className="flex flex-col">
+                      <label className="uppercase text-sm py-2" for="name">
                         Name
                       </label>
                       <input
-                        className='border-2 rounded-lg p-3 flex border-blue-300'
+                        className="border-2 rounded-lg p-3 flex border-blue-300"
                         onChange={handleInput}
                         value={formData.name}
                         name="name"

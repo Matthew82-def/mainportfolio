@@ -11,7 +11,7 @@ import reactImg from "../public/assets/react.png";
 import tailwindImg from "../public/assets/tailwind.png";
 import mysqlImg from "../public/assets/mysql1.png";
 import jqueryImg from "../public/assets/jquery.png";
-import vscodeImg from "../public/assets/vscode1.jpg";
+import angularImg from "../public/assets/angular.png";
 
 const Skills = () => {
   return (
@@ -135,10 +135,10 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in duration-300 ">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={vscodeImg} width="64" height="64" alt="/" />
+                <Image src={angularImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Visual Studio Code</h3>
+                <h3>Angular</h3>
               </div>
             </div>
           </div>

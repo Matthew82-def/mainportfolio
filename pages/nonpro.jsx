@@ -1,10 +1,10 @@
-import Image from "next/image";
 import React from "react";
-import chatappImg from "../public/assets/projects/chatapp.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import saraImage from "../public/assets/projects/saraLogo.png";
+import Image from "next/image";
 
-const chatapp = () => {
+const nonpro = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const chatapp = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={chatappImg}
+          src={saraImage}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Chat App</h2>
-          <h3>Next JS / Bootstrap / Express</h3>
+          <h2 className="py-2">NonproAdco Webpage</h2>
+          <h3>Next JS / Tailwind</h3>
         </div>
       </div>
 
@@ -27,19 +27,20 @@ const chatapp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using Next JS and is hosted on Vercel. Users are
-            able to connect with friends and family and share videos as well as
-            images.
+            This app was built using Next JS and is hosted on Vercel and built
+            with Avernix Technologies API intergrations. This webpage is
+            designed for assisting nonprofits who need quick and temporary admin
+            support.
           </p>
-          <a
+          {/* <a
             href="https://github.com/Matthew82-def/chatApp"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
+          </a> */}
           <a
-            href="https://audosity-chat.vercel.app/"
+            href="https://www.nonproadco.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,17 +51,17 @@ const chatapp = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-blue-600 py-2 flex items-center">
+              {/* <p className="text-blue-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-blue-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Bootstrap
-              </p>
-              <p className="text-blue-600 py-2 flex items-center">
+              </p> */}
+              {/* <p className="text-blue-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
+              </p> */}
               <p className="text-blue-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Express
+                <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
               <p className="text-blue-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Next JS
@@ -79,4 +80,4 @@ const chatapp = () => {
   );
 };
 
-export default chatapp;
+export default nonpro;
