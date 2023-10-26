@@ -21,13 +21,13 @@ const Projects = () => {
             title="NonproAdco"
             backgroundImg={saraLogo}
             projectUrl="/nonpro"
-            tech="NEXT.JS, TAILWIND"
+            tech="NEXT.JS, TAILWIND.CSS, API Integration"
           />
           <ProjectItem
             title="Avernix"
             backgroundImg={avernixLogo}
             projectUrl="/avernix"
-            tech="NEXT.JS, TAILWIND, API Integration"
+            tech="NEXT.JS, TAILWIND.CSS, API Integration"
           />
           <ProjectItem
             title="Webpage"

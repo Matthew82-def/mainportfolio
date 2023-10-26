@@ -61,7 +61,7 @@ const nonpro = () => {
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p> */}
               <p className="text-blue-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> Tailwind.CSS
               </p>
               <p className="text-blue-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Next JS
