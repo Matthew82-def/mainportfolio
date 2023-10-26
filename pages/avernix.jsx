@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import drumkitImg from "../public/assets/projects/drumkit.png";
+import avernixLogo from "../public/assets/projects/avernix.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const drumkit = () => {
+const avernix = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const drumkit = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={drumkitImg}
+          src={avernixLogo}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Drum Kit</h2>
-          <h3>HTML / CSS / JAVASCRIPT</h3>
+          <h2 className="py-2">Company Webpage</h2>
+          <h3>Next.JS / Tailwind.CSS / API Integration</h3>
         </div>
       </div>
 
@@ -27,18 +27,11 @@ const drumkit = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using basic HTML hosted on Vercel. Users are able
-            to create beats using the keypad on their computer.
+          Avernix Technologies is at the forefront of technological innovation. Our team is dedicated to staying updated with the latest industry trends and incorporating cutting-edge solutions into our services. This dedication to innovation ensures that your projects benefit from the most advanced and effective technologies available.
           </p>
+       
           <a
-            href="https://github.com/Matthew82-def/drumkit-development"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
-            href="https://drumkit-development.vercel.app/"
+            href="https://avernix.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,14 +43,15 @@ const drumkit = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-blue-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> HTML
+                <RiRadioButtonFill className="pr-1" /> Next.js
               </p>
               <p className="text-blue-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> Tailwind.CSS
               </p>
               <p className="text-blue-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> API Integration
               </p>
+             
               {/* <p className="text-blue-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Express
               </p>
@@ -78,4 +72,4 @@ const drumkit = () => {
   );
 };
 
-export default drumkit;
+export default avernix;

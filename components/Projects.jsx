@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import drumkit from "../public/assets/projects/drumkit.png";
+
 import saraLogo from "../public/assets/projects/saraLogo.png";
 import webpage from "../public/assets/projects/webpage.png";
 import tictactoe from "../public/assets/projects/tictactoe.png";
+import avernixLogo from "../public/assets/projects/avernix.png";
 // import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -23,10 +24,10 @@ const Projects = () => {
             tech="NEXT.JS, TAILWIND"
           />
           <ProjectItem
-            title="Drum Kit"
-            backgroundImg={drumkit}
-            projectUrl="/drumkit"
-            tech="HTML, CSS, JAVASCRIPT"
+            title="Avernix"
+            backgroundImg={avernixLogo}
+            projectUrl="/avernix"
+            tech="NEXT.JS, TAILWIND, API Integration"
           />
           <ProjectItem
             title="Webpage"
