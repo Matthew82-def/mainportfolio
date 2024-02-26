@@ -15,19 +15,11 @@ const About = () => {
           <p className="py-2 text-blue-600">Coding to be a better developer</p>
 
           <p className="py-2 text-black-600">
-            Having a good understanding of website design principles and user
-            experience, I have been a great asset in ensuring optimal website
-            compatibility across different platforms and browsers. I am now
-            seeking to leverage these skills in a challenging role to help your
-            organization achieve its digital objectives.
+          I possess a strong understanding of website design principles and user experience, which has enabled me to ensure optimal website compatibility across various platforms and browsers. I am now seeking a challenging role in which I can leverage these skills to help your organization achieve its digital objectives.
           </p>
 
           <p className="py-2 text-black-600">
-            My goal is to create websites that not only meet the client goals
-            but also provide a seamless user experience, ensuring a positive
-            engagement for all users, whether they are customers seeking
-            information or researchers contributing to your organization’s
-            mission.
+          My primary objective is to create websites that meet the client's goals while also delivering a seamless user experience, guaranteeing positive engagement for all users, whether they are customers seeking information or researchers contributing to your organization's mission.
           </p>
           <Link href="https://github.com/Matthew82-def" target="_blank">
             <p className="py-2 text-red-600 underline cursor-pointer">
